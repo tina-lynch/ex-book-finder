@@ -1,0 +1,20 @@
+{
+  "name": "book-finder",
+  "version": "1.0.0",
+  "description": "Create an application that will allow users to search for books by entering a query (Title, Author, etc). Display the resulting books in a list on the page with all the corresponding data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "predeploy": "rm -rf dist && parcel build index.html --out-dir docs --public-url ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.8"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ]
+}

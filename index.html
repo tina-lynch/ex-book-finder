@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK FINDER</title>
+    <link rel="stylesheet" href="base.scss">
+</head>
+
+
+<body>
+    <h1>BOOK FINDER</h1>
+
+    <div class="container">
+        <form class="search" autocomplete="off">
+            <input type="text" name="query">
+            <button name="submit" type="submit">Submit</button>
+        </form>
+
+        <div class="lds-ripple loader hide">
+            <div></div>
+            <div></div>
+        </div>
+
+        <div class="results hide">
+            <h3>RESULTS</h3>
+            <ul></ul>
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
